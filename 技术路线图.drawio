@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T06:49:15.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="7yzG3RdPZY9XkcX7JnWn" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T06:56:53.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="m0BKr4GrEFmCz7LbGJOf" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="823" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,13 +44,13 @@
         <mxCell id="OyyyuKNdZKzh58AtmafU-13" value="火灾前后的林区&lt;br&gt;空间变化特征分析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-15" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-15" value="燃料数据" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="320" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-16" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-16" value="SRTM90m&lt;br&gt;高程数据" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="470" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-17" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-17" value="CMA_RA&lt;br&gt;再分析数据" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="390" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OyyyuKNdZKzh58AtmafU-19" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -133,7 +133,7 @@
             <mxPoint x="260" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-43" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-43" value="山西沁源&lt;br&gt;林火模拟结果" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OyyyuKNdZKzh58AtmafU-44" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -197,7 +197,7 @@
             <mxPoint x="430" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-56" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-56" value="模式不同初始场土壤温湿度差异分析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="390" y="240" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OyyyuKNdZKzh58AtmafU-58" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -224,10 +224,10 @@
             <mxPoint x="609" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-66" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-66" value="不耦合CLDAS的&lt;br&gt;山西沁源&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;林火模拟结果" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="380" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-67" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-67" value="耦合CLDAS的&lt;br&gt;山西沁源&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;林火模拟结果" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OyyyuKNdZKzh58AtmafU-68" value="不耦合" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
