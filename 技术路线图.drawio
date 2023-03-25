@@ -1,34 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T06:01:08.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="at9BK0Cpr1FHMOsxmsIG" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T06:34:45.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="MpN1v9idmMQUnTp98sE2" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="807" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="OyyyuKNdZKzh58AtmafU-0" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-0" value="Sentinel-2 卫星" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="130" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-1" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-1" value="FY4A卫星" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="130" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-2" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-2" value="VIIRS传感器" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="130" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OyyyuKNdZKzh58AtmafU-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OyyyuKNdZKzh58AtmafU-2" edge="1">
+        <mxCell id="OyyyuKNdZKzh58AtmafU-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="210" as="sourcePoint" />
+            <mxPoint x="210" y="210" as="sourcePoint" />
             <mxPoint x="260" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="210" y="210" />
-              <mxPoint x="260" y="210" />
+              <mxPoint x="210" y="230" />
+              <mxPoint x="260" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OyyyuKNdZKzh58AtmafU-8" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="210" as="sourcePoint" />
-            <mxPoint x="309.5" y="180" as="targetPoint" />
+            <mxPoint x="260" y="230" as="sourcePoint" />
+            <mxPoint x="309.5" y="200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="210" />
+              <mxPoint x="310" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -235,6 +235,25 @@
         </mxCell>
         <mxCell id="OyyyuKNdZKzh58AtmafU-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t-_6dtzAgPnL8MEyWanQ-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OyyyuKNdZKzh58AtmafU-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="180" as="sourcePoint" />
+            <mxPoint x="210" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-_6dtzAgPnL8MEyWanQ-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="180" as="sourcePoint" />
+            <mxPoint x="309.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-_6dtzAgPnL8MEyWanQ-6" value="起火位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="182.5" y="190" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t-_6dtzAgPnL8MEyWanQ-10" value="起火时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="282.5" y="190" width="55" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
