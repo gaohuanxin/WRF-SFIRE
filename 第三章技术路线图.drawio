@@ -4,14 +4,14 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="qHYANq4Pt8BAIVUC_QP_-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="CMA_RA / ERA5&lt;br&gt;气象场数据" vertex="1">
-          <mxGeometry height="40" width="125" x="10" y="50" as="geometry" />
+        <mxCell id="qHYANq4Pt8BAIVUC_QP_-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="气象场数据" vertex="1">
+          <mxGeometry height="40" width="95" x="40" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="qHYANq4Pt8BAIVUC_QP_-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="STRM 90 m&amp;nbsp; DEM数据" vertex="1">
-          <mxGeometry height="50" width="130" x="10" y="100" as="geometry" />
+        <mxCell id="qHYANq4Pt8BAIVUC_QP_-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="STRM 90 m&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DEM数据&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="100" as="geometry" />
         </mxCell>
         <mxCell id="qHYANq4Pt8BAIVUC_QP_-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="ASTER GDEM 30m DEM数据" vertex="1">
-          <mxGeometry height="50" width="130" x="10" y="160" as="geometry" />
+          <mxGeometry height="50" width="100" x="40" y="160" as="geometry" />
         </mxCell>
         <mxCell id="qHYANq4Pt8BAIVUC_QP_-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="HGT_M变量&lt;br&gt;HGT_U变量&lt;br&gt;HGT_V变量" vertex="1">
           <mxGeometry height="45" width="80" x="210" y="100" as="geometry" />
@@ -156,7 +156,7 @@
             <mxPoint x="321" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qHYANq4Pt8BAIVUC_QP_-45" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="CMA_RA驱动&lt;div&gt;河北省30 m可燃物分类数据&lt;/div&gt;" vertex="1">
+        <mxCell id="qHYANq4Pt8BAIVUC_QP_-45" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="试验1：CMA_RA驱动并耦合&lt;div&gt;基于随机森林方法制作的30 m可燃物分类数据&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="210" y="320" as="geometry" />
         </mxCell>
         <mxCell id="qHYANq4Pt8BAIVUC_QP_-46" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=none;html=1;rounded=0;" value="">
@@ -384,14 +384,17 @@
             <mxPoint x="710" y="182" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VkrU1bWLvQCYfmfK_aSq-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="河北省 30 m&amp;nbsp;&lt;div&gt;可燃物分类数据&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="130" x="10" y="240" as="geometry" />
+        <mxCell id="VkrU1bWLvQCYfmfK_aSq-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;可燃物分类数据&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="7td51w-k1SljKNSl2K09-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="CMA_RA驱动&lt;div&gt;河北省30 m可燃物分类数据&lt;/div&gt;" vertex="1">
+        <mxCell id="7td51w-k1SljKNSl2K09-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="试验2：CMA_RA驱动并耦合&lt;div&gt;基于图像映射方法制作的30 m可燃物分类数据&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="390" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="7td51w-k1SljKNSl2K09-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="CMA_RA驱动&lt;div&gt;河北省30 m可燃物分类数据&lt;/div&gt;" vertex="1">
+        <mxCell id="7td51w-k1SljKNSl2K09-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="试验3：ERA5驱动并耦合&lt;div&gt;基于随机森林方法制作的30 m可燃物分类数据&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7td51w-k1SljKNSl2K09-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="试验4：ERA5驱动并耦合&lt;div&gt;基于图像映射方法制作的30 m可燃物分类数据&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="760" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
